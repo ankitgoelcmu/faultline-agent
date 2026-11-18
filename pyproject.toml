@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-reliability-lab"
+version = "0.1.0"
+description = "Tool-call fault injection and prompt-injection experiments for LLM agents, with a fault plug-in for tau2-bench"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Ankit Goel"}]
+requires-python = ">=3.9"
+dependencies = ["anthropic>=0.40", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+security = ["transformers>=4.44", "torch>=2.3", "nemoguardrails>=0.24", "pyyaml>=6"]
+# tau2-bench isn't on PyPI: install it from its repository first (see README).
+tau2 = []
+
+[project.scripts]
+tau2-faults = "lab.tau2_faults:main"
+agent-lab-run = "lab.run:main"
+agent-lab-analyze = "lab.analyze:main"
+agent-lab-security = "lab.security_run:main"
+
+[tool.setuptools]
+packages = ["lab"]

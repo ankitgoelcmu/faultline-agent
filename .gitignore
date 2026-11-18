@@ -1,0 +1,8 @@
+.venv/
+.env
+__pycache__/
+results/
+external/
+.venv-tau2/
+.venv-sec/
+paper/figures-test/

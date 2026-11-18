@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, the τ²-bench fault plug-in or the released traces, please cite the paper below."
+title: "FaultLine-Agent: fault injection, idempotency and output-defense experiments for tool-calling LLM agents"
+type: software
+license: MIT
+authors:
+  - family-names: Goel
+    given-names: Ankit
+    email: ankitgoel.cmu@gmail.com
+    affiliation: Independent Researcher
+keywords:
+  - LLM agents
+  - tool calling
+  - fault injection
+  - idempotency
+  - prompt injection
+  - tau2-bench
+  - pre-registration
+repository-code: "https://github.com/ankitgoelcmu/faultline-agent"
+# Add on release day: url, doi (Zenodo), date-released, version.
+preferred-citation:
+  type: article
+  title: "Tool Contracts and Output Defenses Under Agent Faults: A Pre-Registered Replication and τ²-bench Extension"
+  authors:
+    - family-names: Goel
+      given-names: Ankit
+      affiliation: Independent Researcher
+  year: 2026
+  # Add on release day: identifiers (arXiv ID), url.

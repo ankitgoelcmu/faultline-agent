@@ -1,0 +1,6 @@
+-r requirements.txt
+# Only needed for the classifier and nemo defenses in the security lab
+transformers>=4.44
+torch>=2.3
+nemoguardrails>=0.24
+pyyaml>=6
