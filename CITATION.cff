@@ -8,6 +8,7 @@ authors:
     given-names: Ankit
     email: ankitgoel.cmu@gmail.com
     affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0000-8939-8745"
 keywords:
   - LLM agents
   - tool calling
@@ -17,7 +18,8 @@ keywords:
   - tau2-bench
   - pre-registration
 repository-code: "https://github.com/ankitgoelcmu/faultline-agent"
-# Add on release day: url, doi (Zenodo), date-released, version.
+version: 1.0.1
+date-released: 2026-11-19
 preferred-citation:
   type: article
   title: "Tool Contracts and Output Defenses Under Agent Faults: A Pre-Registered Replication and τ²-bench Extension"
@@ -25,5 +27,9 @@ preferred-citation:
     - family-names: Goel
       given-names: Ankit
       affiliation: Independent Researcher
+      orcid: "https://orcid.org/0009-0000-8939-8745"
   year: 2026
-  # Add on release day: identifiers (arXiv ID), url.
+  publisher:
+    name: Preprints
+  doi: "10.20944/preprints202611.2064.v1"
+  url: "https://doi.org/10.20944/preprints202611.2064.v1"

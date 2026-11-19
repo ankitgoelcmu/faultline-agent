@@ -1,6 +1,10 @@
 # Agent Reliability Lab
 
-**Pre-registered** on OSF Registries: [osf.io/fe67v](https://osf.io/fe67v/overview) (registered 2026-11-06, 11:43; embargoed until publication). The plan is [PREREGISTRATION.md](PREREGISTRATION.md), git tag `prereg-v1`.
+**Pre-registered** on OSF Registries: [osf.io/fe67v](https://osf.io/fe67v/overview) (registered 2026-11-06, 11:43; public since 2026-11-18). The plan is [PREREGISTRATION.md](PREREGISTRATION.md), git tag `prereg-v1`.
+
+**Paper:** *Tool Contracts and Output Defenses Under Agent Faults: A Pre-Registered Replication and τ²-bench Extension*, preprint, [doi:10.20944/preprints202611.2064.v1](https://doi.org/10.20944/preprints202611.2064.v1).
+
+**Plug-in as a package:** `pip install tau2-faults` ([github.com/ankitgoelcmu/tau2-faults](https://github.com/ankitgoelcmu/tau2-faults)).
 
 ## τ²-bench fault plug-in: try it in one command
 
@@ -29,7 +33,9 @@ If you use the plug-in, the environment or the traces, please cite the paper ([C
   title  = {Tool Contracts and Output Defenses Under Agent Faults:
             A Pre-Registered Replication and $\tau^2$-bench Extension},
   year   = {2026},
-  note   = {arXiv identifier to be added at release}
+  publisher = {Preprints},
+  doi    = {10.20944/preprints202611.2064.v1},
+  url    = {https://doi.org/10.20944/preprints202611.2064.v1}
 }
 ```
 
